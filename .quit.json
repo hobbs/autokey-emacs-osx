@@ -1,0 +1,30 @@
+{
+    "usageCount": 0,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "description": "quit",
+    "type": "script",
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
+    "hotkey": {
+        "hotKey": "q",
+        "modifiers": [
+            "<super>"
+        ]
+    },
+    "prompt": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "triggerInside": false,
+        "backspace": true,
+        "abbreviations": []
+    },
+    "store": {}
+}

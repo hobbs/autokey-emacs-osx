@@ -1,0 +1,30 @@
+{
+    "usageCount": 0,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "description": "undo",
+    "type": "script",
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
+    "hotkey": {
+        "hotKey": "z",
+        "modifiers": [
+            "<super>"
+        ]
+    },
+    "prompt": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "triggerInside": false,
+        "backspace": true,
+        "abbreviations": []
+    },
+    "store": {}
+}
