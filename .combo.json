@@ -1,26 +1,26 @@
 {
-    "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "combo", 
-    "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
+    "modes": [],
+    "description": "combo",
+    "prompt": false,
+    "store": {},
+    "showInTrayMenu": false,
+    "type": "script",
+    "omitTrigger": false,
     "hotkey": {
-        "hotKey": null, 
+        "hotKey": null,
         "modifiers": []
-    }, 
-    "modes": [], 
-    "showInTrayMenu": false, 
+    },
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "triggerInside": false,
+        "ignoreCase": false
+    },
     "filter": {
-        "regex": null, 
+        "regex": null,
         "isRecursive": false
-    }, 
-    "type": "script", 
-    "store": {}
+    },
+    "usageCount": 1
 }

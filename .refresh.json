@@ -1,0 +1,30 @@
+{
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "prompt": false,
+    "showInTrayMenu": false,
+    "type": "script",
+    "store": {},
+    "description": "refresh",
+    "omitTrigger": false,
+    "hotkey": {
+        "modifiers": [
+            "<super>"
+        ],
+        "hotKey": "r"
+    },
+    "modes": [
+        3
+    ],
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "immediate": false,
+        "triggerInside": false,
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "usageCount": 0
+}

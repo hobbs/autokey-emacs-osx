@@ -1,0 +1,30 @@
+{
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "hotkey": {
+        "modifiers": [
+            "<ctrl>"
+        ],
+        "hotKey": "d"
+    },
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "type": "script",
+    "omitTrigger": false,
+    "prompt": false,
+    "usageCount": 1,
+    "abbreviation": {
+        "backspace": true,
+        "ignoreCase": false,
+        "abbreviations": [],
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "store": {},
+    "description": "del"
+}

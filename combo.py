@@ -9,10 +9,11 @@ logging.debug("combo got: " + str(s)) # autokey-gtk -l
 
 logging.debug(window.get_active_class())
 
+
 #if re.match('^((?!.*Emacs).)*$', window.get_active_class()):
-if re.match('.*(Emacs|Guake|Gnome-terminal|Gvim|Eclipse)', window.get_active_class()):
-    logging.debug('nothing')
+if re.match('.*(Emacs|Guake|Gnome-terminal|Gvim|Eclipse|code\\.Code|konsole)', window.get_active_class()):
+    logging.debug('passing through (%s) for %s' % (h, window.get_active_class()))
     keyboard.send_keys(h)
 else:
-    logging.debug('sth')
+    logging.debug('replacing for: %s' % window.get_active_class())
     keyboard.send_keys(s)
